@@ -46,8 +46,8 @@
 
 	'use strict';
 
-	var $ = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"jquery\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-	var Game = __webpack_require__(1);
+	var $ = __webpack_require__(1);
+	var Game = __webpack_require__(2);
 
 	$('.game-canvas').hide();
 	$('.end-game').hide();
@@ -75,7 +75,6 @@
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	 * jQuery JavaScript Library v3.0.0
 	 * https://jquery.com/
@@ -10119,27 +10118,17 @@
 /* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
-=======
->>>>>>> 0286b61892e8a2fc51b0fa0e381ec2911886a318
 	'use strict';
 
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-<<<<<<< HEAD
 	var $ = __webpack_require__(1);
 	var Copter = __webpack_require__(3);
 	var Obstacle = __webpack_require__(4);
 	var Boundary = __webpack_require__(6);
 	var PowerUp = __webpack_require__(5);
-=======
-	var $ = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"jquery\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-	var Copter = __webpack_require__(2);
-	var Obstacle = __webpack_require__(3);
-	var Boundary = __webpack_require__(5);
-	var PowerUp = __webpack_require__(4);
->>>>>>> 0286b61892e8a2fc51b0fa0e381ec2911886a318
 	var playback = 'true';
 	var canvas = document.getElementById('game');
 	var context = canvas.getContext('2d');
@@ -10337,11 +10326,7 @@
 	module.exports = Game;
 
 /***/ },
-<<<<<<< HEAD
 /* 3 */
-=======
-/* 2 */
->>>>>>> 0286b61892e8a2fc51b0fa0e381ec2911886a318
 /***/ function(module, exports) {
 
 	"use strict";
@@ -10401,11 +10386,7 @@
 	module.exports = Copter;
 
 /***/ },
-<<<<<<< HEAD
 /* 4 */
-=======
-/* 3 */
->>>>>>> 0286b61892e8a2fc51b0fa0e381ec2911886a318
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10414,11 +10395,7 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-<<<<<<< HEAD
 	var PowerUp = __webpack_require__(5);
-=======
-	var PowerUp = __webpack_require__(4);
->>>>>>> 0286b61892e8a2fc51b0fa0e381ec2911886a318
 
 	var Obstacle = (function () {
 	  function Obstacle(image, x, y, width, height, context, game) {
@@ -10466,11 +10443,6 @@
 	    value: function isPowerUp(collider) {
 	      return collider instanceof PowerUp;
 	    }
-	  }, {
-	    key: 'isPowerUp',
-	    value: function isPowerUp(collider) {
-	      return collider instanceof PowerUp;
-	    }
 	  }]);
 
 	  return Obstacle;
@@ -10479,7 +10451,7 @@
 	module.exports = Obstacle;
 
 /***/ },
-/* 4 */
+/* 5 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -10547,11 +10519,7 @@
 	module.exports = PowerUp;
 
 /***/ },
-<<<<<<< HEAD
 /* 6 */
-=======
-/* 5 */
->>>>>>> 0286b61892e8a2fc51b0fa0e381ec2911886a318
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10560,11 +10528,7 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-<<<<<<< HEAD
 	var PowerUp = __webpack_require__(5);
-=======
-	var PowerUp = __webpack_require__(4);
->>>>>>> 0286b61892e8a2fc51b0fa0e381ec2911886a318
 
 	var Boundary = (function () {
 	  function Boundary(x, y, width, height, context, game, image) {
